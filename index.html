@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/responsiveness.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="home">
+      <nav id="header">
+        <h2 class="text-color">HN</h2>
+        <ul id="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+
+      <div class="home">
+        <div class="home-text">
+          <h3>Front End Developer</h3>
+          <p>
+            Hi I'm <span class="text-color"> Husna </span> <br />from Pakistan.
+          </p>
+        </div>
+        <div class="home-img">
+          <img src="/images/img4.png" alt="" />
+        </div>
+      </div>
+    </header>
+    <!-----------About Page----------->
+
+    <div id="about">
+      <h1>About Me</h1>
+      <div class="container">
+        <div class="about-img"><img src="images/img4.png" alt="" /></div>
+        <div class="about-info">
+          <p>
+            Hi I'm <span class="text-color"> Husna </span>,<br />
+            <span class="text-color">Front End Developer</span> . <br />
+            I'm student of khushal khan khattak university of department of
+            computer science.<br />
+            I can develop <br />
+            awesome landing pages , themes , templates in html and css !!!!!!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-------------------Services page------------------------->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Servives</h1>
+        <div class="services-list">
+          <div>
+            <h2>Templates</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              vero expedita consequuntur quaerat vitae minima delectus,
+              molestiae enim dolorum ratione praesentium neque magni, animi
+              placeat fuga eum voluptatum possimus tempore!
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>Themes</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              vero expedita consequuntur quaerat vitae minima delectus,
+              molestiae enim dolorum ratione praesentium neque magni, animi
+              placeat fuga eum voluptatum possimus tempore!
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>Landing Pages</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis
+              vero expedita consequuntur quaerat vitae minima delectus,
+              molestiae enim dolorum ratione praesentium neque magni, animi
+              placeat fuga eum voluptatum possimus tempore!
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-----------------Portfolio page---------------------->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="/images/imag.jfif" alt="" />
+            <div class="layer">
+              <h3>Hotel Website</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                eligendi.
+              </p>
+              <i></i>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/imag.jfif" alt="" />
+            <div class="layer">
+              <h3>My Portfolio</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                eligendi.
+              </p>
+              <i></i>
+            </div>
+          </div>
+          <div class="work">
+            <img src="/images/imag.jfif" alt="" />
+            <div class="layer">
+              <h3>landing web pages</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum,
+                eligendi.
+              </p>
+              <i></i>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-------Contact page------------>
+    <div id="contact">
+      <div class="main">
+        <!-- <div class="contactform"> -->
+        <h1>Contact me for general Enquires</h1>
+        <form>
+          <div class="mb-3">
+            <label for="clientname" class="form-label">Name</label>
+            <input
+              type="name"
+              class="form-control"
+              id="clientname"
+              placeholder=""
+            />
+          </div>
+          <div class="mb-3">
+            <label for="clientemail" class="form-label">Email address</label>
+            <input
+              type="email"
+              class="form-control"
+              id="clientemail"
+              aria-describedby="emailHelp"
+            />
+            <div id="emailHelp" class="form-text">
+              We'll never share your email & phone with anyone else.
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="clientphone" class="form-label">Phone</label>
+            <input type="password" class="form-control" id="clientphone" />
+          </div>
+          <div class="mb-3">
+            <label for="enquiry" class="form-label">Enquiry</label>
+            <input type="text" class="form-control" id="enquiry" />
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="isclient" />
+            <label class="form-check-label" for="isclient"
+              >I want you to work for me.</label
+            >
+          </div>
+          <button type="submit" class="btn1 btn-primary">Submit</button>
+        </form>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="ft-container">
+          <div class="ft">
+            <a href=""
+              ><i class="fa-brands fa-facebook"></i>
+              <h5>Home</h5></a
+            >
+          </div>
+          <div class="ft">
+            <a href=""
+              ><i class="fa-brands fa-twitter"></i>
+              <h5>About</h5></a
+            >
+          </div>
+          <div class="ft">
+            <a href=""
+              ><i class="fa-brands fa-square-instagram"></i>
+              <h5>Services</h5></a
+            >
+          </div>
+          <div class="ft">
+            <a href=""
+              ><i class="fa-brands fa-linkedin"></i>
+              <h5>Contact Me</h5></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="ft-text">
+        <div>
+          <p>
+            copyright<i class="fa-regular fa-copyright"></i>2024kkkuk@edu.pk
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      var menu = document.getElementById("menu");
+      function openmenu() {
+        menu.style.right = "0px";
+      }
+      function closemenu() {
+        menu.style.right = "-200px";
+      }
+    </script>
+    <input type="text" name="" id="" />
+    <label for=""></label>
+  </body>
+</html>
